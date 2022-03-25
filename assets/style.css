@@ -131,7 +131,7 @@ img {
   background-image: url("");
 }
 .hero {
-  background-image: url("./images/herobg-m.webp");
+  background-image: url("./images/herobg-m.png");
   padding: 25vw 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -203,7 +203,7 @@ img {
 .points {
   text-align: center;
   padding: 3rem 0;
-  background-image: url("./images/pointsbg-top-m.webp"), url("./images/pointsbg-bottom-m.webp");
+  background-image: url("./images/pointsbg-top-m.png"), url("./images/pointsbg-bottom-m.png");
   background-position: center top, center bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: auto auto;
@@ -252,7 +252,7 @@ img {
 
 /* Simple Section */
 .simple {
-  background-image: url("./images/simple-bg-m.webp");
+  background-image: url("./images/simple-bg-m.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -282,7 +282,7 @@ img {
   overflow-x: clip;
 }
 .corporate .container::after {
-  content: url("./images/corporatebg-m.webp");
+  content: url("./images/corporatebg-m.png");
   display: block;
   position: absolute;
   bottom: 0;
@@ -342,7 +342,7 @@ mark {
     margin: 0 auto;
   }
   .hero {
-    background-image: url("./images/herobg-d.webp");
+    background-image: url("./images/herobg-d.png");
     padding: 7rem 0;
   }
   .hero .hero__title {
@@ -378,7 +378,7 @@ mark {
   }
   /* Points Section */
   .points {
-    background-image: url(./images/pointsbg-top-d.webp), url(./images/pointsbg-right-d.webp);
+    background-image: url("./images/pointsbg-top-d.png"), url("./images/pointsbg-right-d.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: auto auto;
@@ -394,7 +394,7 @@ mark {
   }
   /* Simple Section */
   .simple {
-    background-image: url("./images/simple-bg-d.webp");
+    background-image: url("./images/simple-bg-d.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -408,7 +408,7 @@ mark {
     max-width: 870px;
   }
   .corporate .container::after {
-    content: url("./images/corporatebg-d.webp");
+    content: url("./images/corporatebg-d.png");
     z-index: 1;
   }
   .corporate .section__title {
